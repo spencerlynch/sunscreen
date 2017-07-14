@@ -57,12 +57,10 @@ body, html {
 h1 {
 	font-family: 'Rock Salt', cursive;
 	letter-spacing: 2px;
-	font-size: 4opx;
+	font-size: 40px;
+	text-shadow: -2px 3px 14px black;
 }
 
-p {
-	font-family: 'Quicksand', sans-serif;
-}
 /* down arrow...need to give it an <a> tag */
 i {
     border: solid white;
