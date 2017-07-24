@@ -5,6 +5,7 @@ body, html {
 
 .topnav {
     background-color: #333;
+    opacity: 0.75;
     overflow: hidden;
 }
 
@@ -34,8 +35,8 @@ body, html {
 	/* Grand canyon picture */
 	background-image: url(http://gdurl.com/tcFQ);
 
-	height: 75%;
-
+	height: 90%;
+	max-width: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -67,9 +68,32 @@ i {
     border-width: 0 10px 10px 0;
     display: inline-block;
     padding: 16px;
+    text-shadow: -2px 3px 14px black;
 }
 
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    box-shadow: 7px 10px 10px black;
+    position: relative;
+    padding: 20px 20px;
+}
+
+.blog {
+	background: lime;
+	font-family: 'Fredericka the great', cursive;
+	padding-bottom: 50%;
+
+}
+
+.aboutMe {
+	background: blue;
+	font-family: 'Fredericka the great', cursive;
+	padding-bottom: 50%;
+}
+
+.myPortfolio {
+	background: red;
+	font-family: 'Fredericka the great', cursive;
+	padding-bottom: 50%;
 }
