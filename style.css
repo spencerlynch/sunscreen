@@ -3,19 +3,16 @@ body, html {
 
 }
 
-.navbar{
+.navbar {
 	font-family:"Quicksand", cursive;
-	position: relative;
-    min-height: 50px;
-    margin-bottom: 0px;
-    border: 1px solid transparent;
 }
+
 
 .home {
 	/* .hero-image grand canyon*/
 	background-image: url(http://gdurl.com/tcFQ);
 
-	height: 90%;
+	height: 100%;
 	max-width: cover;
 	background-position: center;
 	background-repeat: no-repeat;
