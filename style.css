@@ -3,36 +3,16 @@ body, html {
 
 }
 
-.topnav {
-    background-color: #333;
-    opacity: 0.75;
-    overflow: hidden;
+.navbar{
+	font-family:"Quicksand", cursive;
+	position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
 }
 
-.topnav a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	font-family: 'Neucha', cursive;
-	font-weight: bolder;
-}
-
-.topnav a:hover {
-	background-color: #ddd;
-	color: black;
-}
-
-.topnav a.active {
-	background-color: #4CAF50;
-	color: white;
-}
-
-.hero-image {
-	/* Grand canyon picture */
+.home {
+	/* .hero-image grand canyon*/
 	background-image: url(http://gdurl.com/tcFQ);
 
 	height: 90%;
@@ -50,16 +30,16 @@ body, html {
 	top: 33%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: white;
+	color: whitesmoke;
+	font-family: 'Rock Salt', cursive;
 
 
 }
 
 h1 {
-	font-family: 'Rock Salt', cursive;
 	letter-spacing: 2px;
-	font-size: 40px;
-	text-shadow: -2px 3px 14px black;
+	font-size: 42px;
+	text-shadow: -2px 3px 14px darkred;
 }
 
 /* down arrow...need to give it an <a> tag */
@@ -76,24 +56,24 @@ i {
     -webkit-transform: rotate(45deg);
     box-shadow: 7px 10px 10px black;
     position: relative;
-    padding: 20px 20px;
+    padding: 15px 15px;
 }
 
 .blog {
 	background: lime;
-	font-family: 'Fredericka the great', cursive;
+	font-family: 'Quicksand', cursive;
 	padding-bottom: 50%;
 
 }
 
 .aboutMe {
 	background: blue;
-	font-family: 'Fredericka the great', cursive;
+	font-family: 'Quicksand', cursive;
 	padding-bottom: 50%;
 }
 
 .myPortfolio {
 	background: red;
-	font-family: 'Fredericka the great', cursive;
+	font-family: 'Quicksand', cursive;
 	padding-bottom: 50%;
 }
