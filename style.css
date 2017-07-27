@@ -56,6 +56,7 @@ i {
     padding: 15px 15px;
 }*/
 
+<<<<<<< HEAD
 
 .aboutMe {
 	background: blue;
@@ -69,16 +70,36 @@ i {
 	font-family: 'Quicksand', cursive;
 	padding-bottom: 50%;
 
+=======
+.blog {
+	background: lime;
+	font-family: 'Quicksand', cursive;
+	padding-bottom: 50%;
+
+}
+
+.aboutMe {
+	background: blue;
+	font-family: 'Quicksand', cursive;
+	padding-bottom: 50%;
+>>>>>>> 3532bedcc9e55c2ed72b08e402050f52faf2e008
 }
 /*thoreau quote*/
 blockquote {
     padding: 6px 16px;
+<<<<<<< HEAD
     border-color: blue;
+=======
+    border: none;
+>>>>>>> 3532bedcc9e55c2ed72b08e402050f52faf2e008
     quotes: "\201C" "\201D";
     display: inline-block;
     position: relative;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3532bedcc9e55c2ed72b08e402050f52faf2e008
 }
 
 blockquote:before { 
