@@ -1,0 +1,110 @@
+body, html {
+	height:100%;
+
+}
+
+.navbar {
+	font-family:"Quicksand", cursive;
+}
+
+
+.home {
+	/* .hero-image grand canyon*/
+	background-image: url(http://gdurl.com/tcFQ);
+
+	height: 100%;
+	max-width: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+} 
+
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: whitesmoke;
+	font-family: 'Rock Salt', cursive;
+
+
+}
+
+h1 {
+	letter-spacing: 2px;
+	font-size: 42px;
+	text-shadow: -2px 3px 14px darkred;
+}
+
+/* down arrow...need to give it an <a> tag 
+i {
+    border: solid white;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 16px;
+    text-shadow: -2px 3px 14px black;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    box-shadow: 7px 10px 10px black;
+    position: relative;
+    padding: 15px 15px;
+}*/
+
+
+.aboutMe {
+	background: blue;
+	font-family: 'Quicksand', cursive;
+	padding-bottom: 50%;
+	height: 50%;
+}
+
+.blog {
+	background: lime;
+	font-family: 'Quicksand', cursive;
+	padding-bottom: 50%;
+
+}
+/*thoreau quote*/
+blockquote {
+    padding: 6px 16px;
+    border-color: blue;
+    quotes: "\201C" "\201D";
+    display: inline-block;
+    position: relative;
+
+
+}
+
+blockquote:before { 
+    content: open-quote;
+    font-weight: bold;
+    position:absolute;
+    top:0;
+    left: 0;
+} 
+blockquote:after { 
+    content: close-quote;
+    font-weight: bold;
+    position:absolute;
+    bottom:0; right: 0;
+}
+
+/* portfolio div */
+.myPortfolio {
+	background: red;
+	font-family: 'Quicksand', cursive;
+	padding-bottom: 50%;
+}
+
+/* contact div */
+.contact {
+	background: gray;
+	font-family: 'Quicksand', cursive;
+	padding-bottom: 50%;
+}
