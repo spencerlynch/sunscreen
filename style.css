@@ -8,7 +8,7 @@ body, html {
 }
 
 
-.home {
+#home {
 	/* .hero-image grand canyon*/
 	background-image: url(http://gdurl.com/tcFQ);
 
@@ -56,17 +56,17 @@ i {
     padding: 15px 15px;
 }*/
 
-.blog {
+#aboutMe {
+	background: blue;
+	font-family: 'Quicksand', cursive;
+	padding-bottom: 50%;
+}
+
+#blog {
 	background: lime;
 	font-family: 'Quicksand', cursive;
 	padding-bottom: 50%;
 
-}
-
-.aboutMe {
-	background: blue;
-	font-family: 'Quicksand', cursive;
-	padding-bottom: 50%;
 }
 /*thoreau quote*/
 blockquote {
@@ -90,18 +90,48 @@ blockquote:after {
     font-weight: bold;
     position:absolute;
     bottom:0; right: 0;
+    padding-left: 0;
 }
 
 /* portfolio div */
-.myPortfolio {
+#myPortfolio {
 	background: red;
 	font-family: 'Quicksand', cursive;
 	padding-bottom: 50%;
 }
 
 /* contact div */
-.contact {
-	background: gray;
-	font-family: 'Quicksand', cursive;
-	padding-bottom: 50%;
+#contact {
+	/* .hero-image grand canyon*/
+	background-image: url(http://gdurl.com/faUw);
+
+	height: 85%;
+	max-width: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.emailForm{
+	
+/*	background: gray;
+*/	font-family: 'Quicksand', cursive;
+	padding-left: 50%;
+	padding-top: 20%;
+	text-align: left;
+	color: whitesmoke;
+}
+
+input {
+	max-width: 100%
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 3px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+
+input:focus {
+	border: 3px solid #555;
 }
