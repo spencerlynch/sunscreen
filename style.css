@@ -56,58 +56,29 @@ i {
     padding: 15px 15px;
 }*/
 
-<<<<<<< HEAD
 #aboutMe {
-	background: blue;
-=======
-<<<<<<< HEAD
-
-.aboutMe {
 	background: blue;
 	font-family: 'Quicksand', cursive;
 	padding-bottom: 50%;
 	height: 50%;
 }
 
-.blog {
-	background: lime;
-	font-family: 'Quicksand', cursive;
-	padding-bottom: 50%;
-
-=======
-.blog {
-	background: lime;
->>>>>>> 18846d0d9a0c1aeaf905f0e438a6ab9922b2e56d
-	font-family: 'Quicksand', cursive;
-	padding-bottom: 50%;
-}
-
 #blog {
 	background: lime;
 	font-family: 'Quicksand', cursive;
 	padding-bottom: 50%;
-<<<<<<< HEAD
 
-=======
->>>>>>> 3532bedcc9e55c2ed72b08e402050f52faf2e008
->>>>>>> 18846d0d9a0c1aeaf905f0e438a6ab9922b2e56d
 }
 /*thoreau quote*/
 blockquote {
     padding: 6px 16px;
-<<<<<<< HEAD
     border-color: blue;
-=======
     border: none;
->>>>>>> 3532bedcc9e55c2ed72b08e402050f52faf2e008
     quotes: "\201C" "\201D";
     display: inline-block;
     position: relative;
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 3532bedcc9e55c2ed72b08e402050f52faf2e008
 }
 
 blockquote:before { 
