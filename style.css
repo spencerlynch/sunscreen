@@ -24,6 +24,7 @@ body, html {
 .hero-text {
 	text-align: center;
 	position: absolute;
+	letter-spacing: 50px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -37,6 +38,11 @@ h1 {
 	letter-spacing: 2px;
 	font-size: 42px;
 	text-shadow: -2px 3px 14px darkred;
+}
+
+h2 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 50px;
 }
 
 /* down arrow...need to give it an <a> tag 
@@ -57,18 +63,16 @@ i {
 }*/
 
 #aboutMe {
-	background: blue;
+	background: #cccccc;
 	font-family: 'Quicksand', cursive;
-	padding-bottom: 50%;
-	height: 50%;
+	font-size: 42px;
+	padding-left: 20px;
+	height: 60%;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-#blog {
-	background: lime;
-	font-family: 'Quicksand', cursive;
-	padding-bottom: 50%;
-
-}
 /*thoreau quote*/
 blockquote {
     padding: 6px 16px;
@@ -98,9 +102,10 @@ blockquote:after {
 
 /* portfolio div */
 #myPortfolio {
-	background: red;
+	background: #cccccc;
+	height: 90%;
+	padding-left: 20px;
 	font-family: 'Quicksand', cursive;
-	padding-bottom: 50%;
 }
 
 /* contact div */
@@ -108,33 +113,38 @@ blockquote:after {
 	/* .hero-image grand canyon*/
 	background-image: url(http://gdurl.com/faUw);
 
-	height: 85%;
+	height: 90%;
 	max-width: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	padding-bottom: 15%;
+
 }
 .emailForm{
 	
 /*	background: gray;
 */	font-family: 'Quicksand', cursive;
-	padding-left: 50%;
-	padding-top: 20%;
+	padding-left: 40%;
+	padding-top: 10%;
 	text-align: left;
 	color: whitesmoke;
+	text-shadow: -2px 3px 14px darkred;
 }
 
 input {
-	max-width: 100%
+	max-width: 100%;
 	padding: 12px 20px;
 	margin: 8px 0;
 	border: 3px solid #ccc;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
 	outline: none;
+	background-color: #cccccc;
 }
 
 input:focus {
 	border: 3px solid #555;
+	color: black;
 }
